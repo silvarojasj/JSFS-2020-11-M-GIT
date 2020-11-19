@@ -20,3 +20,13 @@ const users = [
   ];
   
 
+  for(const i in  users){
+    console.log(i,users[i].rol);
+}
+console.log("---------------------");
+Object.keys(users).forEach(key => console.log(key,users[key].rol));
+
+console.log("---------------------");
+Object.keys(users).forEach(function(key) {
+    console.log(key,users[key].rol);
+})
