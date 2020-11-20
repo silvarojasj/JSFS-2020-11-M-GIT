@@ -24,9 +24,9 @@ const users = [
     console.log(i,users[i].rol);
 }
 console.log("---------------------");
-Object.keys(users).forEach(key => console.log(key,users[key].rol));
+Object.keys(users).forEach(key => console.log(key,users[key].name));
 
 console.log("---------------------");
 Object.keys(users).forEach(function(key) {
-    console.log(key,users[key].rol);
+    console.log(key,users[key].username);
 })
